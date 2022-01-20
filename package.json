@@ -1,6 +1,6 @@
 {
   "name": "rx-button",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Yungsun3307@163.com | Yungsun",
   "main": "lib/rx-button.umd.min.js",
   "private": false,
