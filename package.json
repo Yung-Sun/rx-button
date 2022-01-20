@@ -1,10 +1,17 @@
 {
-  "name": "rx-button-code",
+  "name": "rx-button",
   "version": "0.1.0",
-  "private": true,
+  "author": "Yungsun3307@163.com | Yungsun",
+  "main": "lib/rx-button.umd.min.js",
+  "private": false,
+  "keywords": [
+    "vue",
+    "button"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name rx-button --dest lib ./src/main.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -16,5 +23,10 @@
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yung-Sun/rx-button"
+  },
+  "license": "MIT"
 }
