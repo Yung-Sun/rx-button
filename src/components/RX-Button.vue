@@ -439,7 +439,7 @@ export default {
   margin: 0 auto;
   height: 40px;
   border-radius: 200px;
-  background: #1f2335;
+  background: #1f2336;
   color: white;
   cursor: pointer;
   transition: width .3s;
